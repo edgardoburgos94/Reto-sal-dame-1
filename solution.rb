@@ -2,7 +2,7 @@ require 'sinatra'
 
 get '/' do
   if params[:nombre] == nil
-    @saludo = "hola desconocido"
+    @saludo = "Hola desconocido"
   else
     @saludo = "Hola #{params[:nombre]}"
   end
